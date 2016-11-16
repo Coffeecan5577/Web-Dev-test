@@ -1,0 +1,56 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.dropdown a, .dropdown a:active, .dropdown a:visited {
+    display: block;
+    padding: 5px;	text-decoration: none;
+	color:#AAA;
+    background: #3c3c3c;
+}
+.dropdown a:hover {
+    color: #FFF;
+}
+.dropdown dt a, .dropdown dt a:visited{
+	padding:0px;
+	color:#FFF;
+	background:none;
+}
+#qlarrow{
+	background-image:url(../../../img/elements/qlArrow.png);
+	background-repeat:no-repeat;
+	background-position:top right;
+	padding:0px;
+	padding-right:26px;
+	
+	display:inline;
+}
+.dropdown {
+	padding: 0;
+    margin: 0;
+    text-align: right;
+    width: 200px;
+}
+.dropdown dt {
+    background: none;
+	color:white;
+	padding: 0;
+    margin: 0;
+}
+.dropdown dd {
+    overflow: hidden;
+    display: none;
+    background: #fff;
+    z-index: 200;
+    opacity: 0;
+}
+.dropdown ul {   
+    border: 1px solid white;
+    list-style: none;
+}
+.dropdown li {    display: inline;
+}dd a{	border: 5px solid #3c3c3c;	font-weight:599;}
+.dropdown .underline {
+    border-bottom: 1px solid #555;	
+}#ddouter{	border:1px solid black;}

@@ -1,0 +1,39 @@
+.dropdown {
+	text-align:right;
+	width:200px;
+}
+.dropdown dt {
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+	color:white;
+}
+.dropdown dd {
+    overflow: hidden;
+    display: none;
+    background: #fff;
+    z-index: 200;
+    opacity: 0
+}
+.dropdown ul {   
+    border: 2px solid #FFF;
+    list-style: none;
+}
+.dropdown li {
+    display: inline
+}
+.dropdown a, .dropdown a:active, .dropdown a:visited {
+    display: block;
+    padding: 5px;
+    color: #333;
+	color:#AAA;
+    text-decoration: none;
+    background: #3c3c3c;
+}
+.dropdown a:hover {
+    color: #FFF
+}
+.dropdown .underline {
+    border-bottom: 1px solid #CCC
+}
